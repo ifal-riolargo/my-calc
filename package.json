@@ -2,14 +2,29 @@
   "name": "my-calc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
     "jest": "^27.0.6"
-  }
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifal-riolargo/my-calc"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "Apache 2.0",
+  "author": "Leo Fernandes"
 }
